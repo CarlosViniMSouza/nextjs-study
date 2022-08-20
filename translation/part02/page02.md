@@ -108,3 +108,15 @@ Atualizar o DOM com JavaScript simples é muito poderoso, mas detalhado. Você e
 À medida que o tamanho de um aplicativo ou equipe cresce, pode se tornar cada vez mais desafiador criar aplicativos dessa maneira.
 
 Com essa abordagem, os desenvolvedores gastam muito tempo escrevendo instruções para dizer ao computador **como** ele deve fazer as coisas. Mas não seria legal descrever **o que** você quer mostrar e deixar o computador descobrir **como** atualizar o DOM?
+
+## **Programação Imperativa x Declarativa**
+
+O código acima é um bom exemplo de **programação imperativa**. Você está escrevendo as etapas de **como** a interface do usuário deve ser atualizada. Mas quando se trata de construir interfaces de usuário, uma abordagem declarativa geralmente é preferida porque pode acelerar o processo de desenvolvimento. Em vez de ter que escrever métodos DOM, seria útil se os desenvolvedores pudessem declarar **o que** querem mostrar (neste caso, uma tag `h1` com algum texto).
+
+Em outras palavras, a **programação imperativa** é como dar a um chef instruções passo a passo sobre como fazer uma pizza. A **programação declarativa** é como pedir uma pizza sem se preocupar com os passos necessários para fazer a pizza. 🍕
+
+Uma biblioteca declarativa popular que ajuda os desenvolvedores a construir interfaces de usuário é o [React](https://beta.reactjs.org/).
+
+## **React: Uma biblioteca declarativa UI**
+
+Como desenvolvedor, você pode dizer ao React o que deseja que aconteça com a interface do usuário, e o React descobrirá as etapas de **como** atualizar o DOM em seu nome.
