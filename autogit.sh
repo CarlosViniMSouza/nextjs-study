@@ -1,6 +1,6 @@
 git add .
-git commit -m "Next Study - started | Next topic: What is React?"
-git branch -M main
-git remote add origin https://github.com/CarlosViniMSouza/nextjs-study.git
+git commit -m "Next Study - started | Next topic: What is Next.js?"
 git push -u origin main
 git status
+
+# link to continue: https://nextjs.org/learn/foundations/about-nextjs/what-is-nextjs
