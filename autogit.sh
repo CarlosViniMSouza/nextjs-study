@@ -1,5 +1,5 @@
 git add .
-git commit -m "Next topic: Updating the UI with JavaScript and DOM Methods"
+git commit -m "Next topic: Imperative vs Declarative Programming"
 git push -u origin main
 git status
 
