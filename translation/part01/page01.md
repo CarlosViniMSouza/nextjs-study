@@ -1,4 +1,4 @@
-# O que é NextJS ?
+# O que é NextJS?
 
 Next.js é uma **estrutura React** flexível que fornece blocos de construção para criar **aplicativos Web** rápidos.
 
@@ -33,7 +33,7 @@ Para cada parte de seu aplicativo, você precisará decidir se criará uma solu�
 
 <br/>
 
-## **O que é React ?**
+## **O que é React?**
 
 [React](https://beta.reactjs.org/) é uma **biblioteca** JavaScript para construir **interfaces de usuário** interativas.
 
@@ -47,7 +47,7 @@ Parte do sucesso do React é que ele é relativamente sem opinião sobre os outr
 
 Isso também significa, no entanto, que construir uma aplicação React completa do zero requer algum esforço. Os desenvolvedores precisam gastar tempo configurando ferramentas e reinventando soluções para requisitos comuns de aplicativos.
 
-## **O que é Next.js ?**
+## **O que é Next.js?**
 
 Next.js é uma **estrutura React** que fornece blocos de construção para criar aplicativos da web.
 
