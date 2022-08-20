@@ -1,6 +1,6 @@
 git add .
-git commit -m "Next Study - started | Next topic: What is Next.js?"
+git commit -m "Next topic: What is the DOM?"
 git push -u origin main
 git status
 
-# link to continue: https://nextjs.org/learn/foundations/about-nextjs/what-is-nextjs
+# link to continue: https://nextjs.org/learn/foundations/from-javascript-to-react

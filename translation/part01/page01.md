@@ -46,3 +46,18 @@ Por biblioteca, queremos dizer que o React fornece funções úteis para constru
 Parte do sucesso do React é que ele é relativamente sem opinião sobre os outros aspectos da construção de aplicativos. Isso resultou em um ecossistema florescente de ferramentas e soluções de terceiros.
 
 Isso também significa, no entanto, que construir uma aplicação React completa do zero requer algum esforço. Os desenvolvedores precisam gastar tempo configurando ferramentas e reinventando soluções para requisitos comuns de aplicativos.
+
+## **O que é Next.js ?**
+
+Next.js é uma **estrutura React** que fornece blocos de construção para criar aplicativos da web.
+
+Por estrutura, queremos dizer Next.js lida com as ferramentas e configurações necessárias para o React e fornece estrutura, recursos e otimizações adicionais para seu aplicativo.
+
+![img-02](https://nextjs.org/static/images/learn/foundations/next-app.png)
+
+Você pode usar o React para criar sua interface do usuário e adotar de forma incremental os recursos do Next.js para resolver requisitos comuns de aplicativos, como *roteamento, busca de dados, integrações* - tudo isso enquanto melhora a *experiência do desenvolvedor e do usuário final*.
+
+Seja você um desenvolvedor individual ou parte de uma equipe maior, você pode aproveitar o React e o Next.
+js para criar aplicativos da Web totalmente interativos, altamente dinâmicos e de alto desempenho.
+
+Nas próximas lições, discutiremos como você pode começar a usar o React e o Next.js.
