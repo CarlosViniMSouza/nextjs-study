@@ -3,23 +3,17 @@
 <body>
     <div id="app"></div>
 
-    <script type="text/javascript">
-        // Selecione o elemento div com id 'app'
+    <!-- Add ReactJS to Project -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+    <!-- Add Babel to Project -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/jsx">
         const app = document.getElementById("app");
 
-        // Crie um novo elemento H1
-        const header = document.createElement("h1");
-
-        // Crie um novo nó de texto para o elemento H1
-        const headerContent = document.createTextNode(
-            "Develop. Preview. Ship. 🚀",
-        );
-
-        // Anexar o texto ao elemento H1
-        header.appendChild(headerContent);
-
-        // Coloque o elemento H1 dentro da div
-        app.appendChild(header);
+        ReactDOM.render(<h1>Develop. Preview. Ship. 🚀</h1>, app);
     </script>
 </body>
 
