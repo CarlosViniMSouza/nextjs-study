@@ -1,5 +1,5 @@
 git add .
-git commit -m "Next topic: Creating components"
+git commit -m "Next topic: Component Trees"
 git push
 git status
 
