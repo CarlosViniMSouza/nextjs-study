@@ -84,3 +84,31 @@ function HomePage() {
     )
 }
 ```
+
+## Árvores de componentes
+
+Você pode continuar aninhando componentes React dessa forma para formar árvores de componentes.
+
+![img-02](https://nextjs.org/static/images/learn/foundations/component-tree.png)
+
+Por exemplo, seu componente `HomePage` de nível superior pode conter um `Header`, um `Article` e um `Footer` Componente. E cada um desses componentes pode ter seus próprios componentes filhos e assim por diante. Por exemplo, o componente `Header` pode conter um componente `Logo`, `Title` e `Navigation`.
+
+Esse formato modular permite que você reutilize componentes em diferentes locais dentro do seu aplicativo.
+
+Em seu projeto, como `<HomePage>` agora é seu componente de nível superior, você pode passá-lo para o método `ReactDOM.render()`:
+
+```JS
+function Header() {
+  return <h1>Develop. Preview. Ship. 🚀</h1>;
+}
+
+function HomePage() {
+  return (
+    <div>
+      <Header />
+    </div>
+  );
+}
+
+ReactDOM.render(<HomePage />, app);
+```
