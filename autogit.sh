@@ -1,5 +1,5 @@
 git add .
-git commit -m "Next topic: Displaying Data with Props"
+git commit -m "Next topic: Using props"
 git push
 git status
 
