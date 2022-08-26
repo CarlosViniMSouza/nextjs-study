@@ -29,3 +29,56 @@ Da mesma forma, você pode passar informações como propriedades para component
 Semelhante a uma função JavaScript, você pode projetar componentes que aceitam argumentos personalizados (ou adereços) que alteram o comportamento do componente ou o que é visivelmente mostrado quando é renderizado na tela. Então, você pode passar esses adereços de componentes pai para componentes filho.
 
 **Nota:** No React, os dados fluem pela árvore de componentes. Isso é conhecido como *fluxo de dados unidirecional*. State, que será discutido na próxima seção, pode ser passado de componentes pai para filho como props.
+
+## **Usando adereços**
+
+Em seu componente `HomePage`, você pode passar um prop de `title` personalizado para o componente `Header`, assim como você passaria atributos HTML:
+
+```JS
+function HomePage() {
+  return (
+    <div>
+      <Header title="React 💙" />
+    </div>
+  );
+}
+```
+
+E `Header`, o componente filho, pode aceitar esses adereços como seu primeiro `parâmetro de função`:
+
+```JS
+function Header(props) {
+   return <h1>Develop. Preview. Ship. 🚀</h1>
+}
+```
+
+Se você `console.log()` props, você pode ver que é um **objeto** com uma propriedade título.
+
+```JS
+function Header(props) {
+   console.log(props) // { title: "React 💙" }
+//   return <h1> React 💙 </h1>
+}
+```
+
+Como props é um objeto, você pode usar a **desestruturação de objetos** para nomear explicitamente os valores de props dentro dos parâmetros de sua função:
+
+```JS
+function Header({ title }) {
+   console.log(title) // "React 💙"
+//   return <h1>React 💙</h1>
+}
+```
+
+Então você pode substituir o conteúdo da tag `<h1>` pela sua variável de título.
+
+```JS
+function Header({ title }) {
+   console.log(title);
+   return <h1>title</h1>;
+}
+```
+
+Se você abrir seu projeto no navegador, verá que ele está exibindo a palavra "title". Isso ocorre porque o React pensa que você pretende renderizar uma string de texto simples para o DOM.
+
+Você precisa de uma maneira de denotar ao React que esta é uma variável JavaScript.

@@ -1,5 +1,5 @@
 git add .
-git commit -m "Next topic: Using props"
+git commit -m "Next topic: Using Variables in JSX"
 git push
 git status
 
