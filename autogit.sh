@@ -1,5 +1,5 @@
 git add .
-git commit -m "Next topic: Using Variables in JSX"
+git commit -m "Next topic: Using Variables in JSX | I'll stop describing the React/Next.js theory"
 git push
 git status
 
