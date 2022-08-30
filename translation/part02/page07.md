@@ -82,3 +82,53 @@ function Header({ title }) {
 Se você abrir seu projeto no navegador, verá que ele está exibindo a palavra "title". Isso ocorre porque o React pensa que você pretende renderizar uma string de texto simples para o DOM.
 
 Você precisa de uma maneira de denotar ao React que esta é uma variável JavaScript.
+
+## **Iterando por listas**
+
+É comum ter dados que você precisa mostrar como uma lista. Você pode usar métodos de matriz para manipular seus dados e gerar elementos de interface do usuário com estilo idêntico, mas que contêm informações diferentes.
+
+**Nota:** React não tem opinião quando se trata de busca de dados, o que significa que você pode escolher a solução que melhor se adapta às suas necessidades. Mais tarde, discutiremos as [opções de busca de dados](https://nextjs.org/learn/basics/data-fetching) em Next.js. Mas, por enquanto, você pode usar um array simples para representar dados. 
+
+Adicione uma matriz de nomes ao seu componente `HomePage`:
+
+```JS
+function HomePage() {
+  const names = [
+    'Ada Lovelace', 
+    'Grace Hopper', 
+    'Margaret Hamilton'
+  ];
+
+  return (
+    <div>
+      <Header title="Develop. Preview. Ship. 🚀" />
+    </div>
+  );
+}
+```
+
+Você pode então usar o método `array.map()` para iterar sobre o array e usar uma **função de seta** para mapear um nome para um item de lista:
+
+```JS
+function HomePage() {
+  const names = [
+    'Ada Lovelace', 
+    'Grace Hopper', 
+    'Margaret Hamilton'
+  ];
+
+  return (
+    <div>
+      <Header title="Develop. Preview. Ship. 🚀" />
+      <ul>
+        {
+          names.map((name) => (
+            <li>
+              {name}
+            </li>))
+        }
+      </ul>
+    </div>
+  );
+}
+```

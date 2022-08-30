@@ -1,6 +1,6 @@
 git add .
-git commit -m "Next topic: Using Variables in JSX | I'll stop describing the React/Next.js theory"
+git commit -m "Next reading: Adding Interactivity with State"
 git push
 git status
 
-# link to continue: https://nextjs.org/learn/foundations/from-javascript-to-react/displaying-data-with-props
+# link to continue: https://nextjs.org/learn/foundations/from-javascript-to-react/adding-interactivity-with-state
