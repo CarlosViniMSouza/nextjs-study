@@ -1,5 +1,5 @@
 git add .
-git commit -m "Next reading: Adding Interactivity with State"
+git commit -m "Next reading: State and Hooks"
 git push
 git status
 
