@@ -1,6 +1,6 @@
 git add .
-git commit -m "Next reading: From React to Next.js"
+git commit -m "Next reading: How Next.js Works"
 git push
 git status
 
-# link to continue: https://nextjs.org/learn/foundations/from-react-to-nextjs
+# link to continue: https://nextjs.org/learn/foundations/how-nextjs-works
